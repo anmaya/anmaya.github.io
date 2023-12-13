@@ -241,6 +241,7 @@ border:rgb(53, 53, 53) 0.1rem solid;
 /* CONTACT */
 
 #contact {
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
