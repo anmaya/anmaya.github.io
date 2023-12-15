@@ -12,5 +12,24 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      620: {
+        slidesPerView: 2
+      },
+      968: {
+        slidesPerView: 3
+      }
+    }
   });
+  
+
+  function toggleMenu() {
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamburger-icon");
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+  }
   
