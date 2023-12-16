@@ -309,7 +309,7 @@ border:rgb(53, 53, 53) 0.1rem solid;
   article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: left;
     gap: 0.5rem;
   }
   
